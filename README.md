@@ -5,10 +5,10 @@ This project automates the extraction of Crown Court data from AWS Athena and ex
 - **Python Notebook**
    - cout_caseload_extract.iypnb
 - **Four .yml Files:** 
-   - crown_court_rpt__receipts_disposals_open_quarterly.yml
-   - crown_court_rpt__receipts_disposals_open_annual.yml
-   - crown_court_rpt__trial_receipts_disposals_open_quarterly.yml
-   - crown_court_rpt__trial_receipts_disposals_open_annual.yml
+   - config_receipts_disposals_open_quarterly.yml
+   - config_receipts_disposals_open_annual.yml
+   - config_trial_receipts_disposals_open_quarterly.yml
+   - config_trial_receipts_disposals_open_annual.yml
 - **Sample Extract**
    -  crown_court_extract.xlxs
 - **s3 Location**
