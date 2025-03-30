@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: crown_court_rpt__trial_receipts_disposals_open_quarterly
+    description: This model represents the base component of the reporting layer, 
+     utilizing data from the OneCrown dimensional model to create a quarterly summary
+     of the caseload report
+    columns:
+      - name: year
+        description: Year
+      - name: quarter
+        description: Quarter
+      - name: receipts_trial_all 
+        description: All trials:receipts
+      - name: disposals_trial_all 
+        description: All trials:disposals
+      - name: open_cases_trial_all 
+        description: All trials:open
+      - name: receipts_trial_tew 
+        description: Triable-either-way trials:receipts
+      - name: disposals_trial_tew 
+        description: Triable-either-way trials:disposals
+      - name: open_cases_trial_tew
+        description: Triable-either-way trials:open
+      - name: receipts_trial_io
+        description: Indictable only trials:receipts
+      - name: disposals_trial_io
+        description: Indictable only trials:disposals
+      - name: open_cases_trial_io
+        description: Indictable only trials:open
+      - name: receipt_trial_unknown
+        description: Trial Unknown:receipts
+      - name: disposals_trial_unknown
+        description: Trial Unknown:disposals
+      - name: open_cases_trial_unknown
+        description: Trial Unknown:Open Cases

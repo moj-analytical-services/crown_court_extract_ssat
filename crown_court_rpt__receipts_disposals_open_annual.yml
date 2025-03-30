@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: crown_court_rpt__receipts_disposals_open_annual
+    description: This model represents the base component of the reporting layer, 
+     utilizing data from the OneCrown dimensional model to create a annual summary
+     of the caseload report
+    columns:
+      - name: year
+        description: Year
+      - name: receipts_all 
+        description: All cases:receipts
+      - name: disposals_all 
+        description: All cases:disposals
+      - name: open_cases_all 
+        description: All cases:open
+      - name: receipts_trial 
+        description: All trials:receipts
+      - name: disposals_trial 
+        description: All trials:disposals
+      - name: open_cases_trial 
+        description: All trials:open
+      - name: receipts_sentence
+        description: Committed for sentence:receipts
+      - name: disposals_sentence 
+        description: Committed for sentence:disposals
+      - name: open_cases_sentence 
+        description: Committed for sentence:open 
+      - name: receipt_appeals
+        description: Appeals:receipts
+      - name: disposals_appeals
+        description: Appeals:disposals
+      - name: open_cases_appeal
+        description: Appeals:open
+      - name: receipts_unknown
+        description: Unknown:receipts
+      - name: disposals_unknown
+        description: Unknown:disposals
+      - name: open_cases_unknown
+        description: Unknown:opens
